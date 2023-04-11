@@ -40,7 +40,7 @@
           <a
             class="navbar-brand col-lg-3 me-0"
             href="/Population-Fluidity/index.html"
-            >Population Fludiity</a
+            >Population Fluidity</a
           >
           <ul class="navbar-nav col-lg-6 justify-content-lg-center">
             <li class="nav-item">
@@ -51,11 +51,25 @@
                 >Home</a
               >
             </li>
+            <li class="nav-item"></li>
+              <a
+                href="/Population-Fluidity/pages/question1.html"
+                class="nav-link"
+                >By State</a
+              >
+            </li>
             <li class="nav-item">
               <a
-                href="/Population-Fluidity/pages/prototype.html"
+                href="/Population-Fluidity/pages/question2.html"
                 class="nav-link"
-                >Prototypes</a
+                >By Income Levels</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                href="/Population-Fluidity/pages/question3.html"
+                class="nav-link"
+                >By Region</a
               >
             </li>
             <!--  Take out for testing -->
@@ -100,28 +114,25 @@
         /> -->
       <div
         class="tableauPlaceholder"
-        id="viz1678642057168"
+        id="viz1680369972315"
         style="position: relative"
       >
         <noscript
-          ><a href="#">
-            <img
-              alt="Where are people in San Francisco County coming from &#47; moving to? "
-              src="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;mi&#47;migrationmap&#47;Sheet1&#47;1_rss.png"
-              style="border: none"
-            />
-          </a>
-        </noscript>
-        <object class="tableauViz" style="display: none">
+          ><a href="#"
+            ><img
+              alt="Dashboard 1 "
+              src="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;mi&#47;migrationmapdashboard&#47;Dashboard1&#47;1_rss.png"
+              style="border: none" /></a></noscript
+        ><object class="tableauViz" style="display: none">
           <param name="host_url" value="https%3A%2F%2Fpublic.tableau.com%2F" />
           <param name="embed_code_version" value="3" />
           <param name="site_root" value="" />
-          <param name="name" value="migrationmap&#47;Sheet1" />
+          <param name="name" value="migrationmapdashboard&#47;Dashboard1" />
           <param name="tabs" value="no" />
           <param name="toolbar" value="yes" />
           <param
             name="static_image"
-            value="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;mi&#47;migrationmap&#47;Sheet1&#47;1.png"
+            value="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;mi&#47;migrationmapdashboard&#47;Dashboard1&#47;1.png"
           />
           <param name="animate_transition" value="yes" />
           <param name="display_static_image" value="yes" />
@@ -132,10 +143,18 @@
         </object>
       </div>
       <script type="text/javascript">
-        var divElement = document.getElementById("viz1678642057168");
+        var divElement = document.getElementById("viz1680369972315");
         var vizElement = divElement.getElementsByTagName("object")[0];
-        vizElement.style.width = "100%";
-        vizElement.style.height = divElement.offsetWidth * 0.75 + "px";
+        if (divElement.offsetWidth > 800) {
+          vizElement.style.width = "100%";
+          vizElement.style.height = "727px";
+        } else if (divElement.offsetWidth > 500) {
+          vizElement.style.width = "100%";
+          vizElement.style.height = "727px";
+        } else {
+          vizElement.style.width = "100%";
+          vizElement.style.height = "1627px";
+        }
         var scriptElement = document.createElement("script");
         scriptElement.src =
           "https://public.tableau.com/javascripts/api/viz_v1.js";

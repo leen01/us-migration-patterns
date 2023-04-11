@@ -15,42 +15,19 @@
       crossorigin="anonymous" />
 
     <title>Population Fluidity</title>
+
+    <script src="jquery.js"></script> 
+    <script> 
+    $(function(){
+      $("#navbar").load("/Population-Fluidity/templates/nav_bar.html"); 
+    });
+    </script> 
+    
   </head>
   <body>
-    <header class="d-flex justify-content-center py-3">
-      <ul class="nav nav-pills">
-        <li class="nav-item">
-          <a href="/Population-Fluidity/index.html" class="nav-link">Home</a>
-        </li>
-        <li class="nav-item"
-          ><a href="/Population-Fluidity/pages/question1.html" class="nav-link"
-            >From California</a
-          ></li
-        >
-        <li class="nav-item"
-          ><a href="/Population-Fluidity/pages/question2.html" class="nav-link"
-            >By Income Levels</a
-          ></li
-        >
-        <li class="nav-item"
-          ><a href="/Population-Fluidity/pages/question3.html" class="nav-link"
-            >From the Rust Belt</a
-          ></li
-        >
-        <!--  Take out for testing -->
-        <li class="nav-item"
-          ><a href="/Population-Fluidity/pages/about.html" class="nav-link active" aria-current="page"
-            >About</a
-          ></li
-        >
-        <li class="nav-item">
-          <a href="/Population-Fluidity/pages/authors.html" class="nav-link"
-            >Authors</a
-          >
-        </li>
-      </ul>
-    </header>
+    <div id = 'navbar'>
 
+    </div>
     <div class="container">
       <!-- Content Here -->
 
