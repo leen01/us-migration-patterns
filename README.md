@@ -1,4 +1,6 @@
-<a href="https://groups.ischool.berkeley.edu/Population-Fluidity/"><h1>Population Fluidity</h1></a>
+<h1 align = 'center'>Population Fluidity</h1>
+<h2 align = 'center'><a href="https://groups.ischool.berkeley.edu/Population-Fluidity/">Project Website</a></h2>
+
 This project was the effort to understand how the US population is changing between 2010 - 2020. 
 This repository contains the python notebooks used to extract the data from the US Census Bureau [American Community Survey (ACS)](https://www.census.gov/programs-surveys/acs/about.html). 
 THe ACS is an ongoing survey generating data to help government officials determine how to spend $675 billion of federal and state funds distributed each year. 
